@@ -6,66 +6,74 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>Welcome to CodeHelp</h3>
-
-    <h3>Contact us Form</h3>
+    <header>
+        <h1>Welcome to CodeHelp</h1>
+        <h2>Contact us Form</h2>
+    </header>
+    
     <form>
         <label for="Username">Name</label>
-        <input type = "text" id="Username" placeholder="Enter your Name">
+        <input type = "text" name="name" id="Username" placeholder="Enter your Name">
         <br>
+
         <label for="Email">Email</label>
         <input type = "text" id="Email" placeholder="Enter your Email">
         <br>
+
         <label for="Contact">Contact Number</label>
         <input type ="number" id="Contact" placeholder="Enter Contact Number">
         <br>
+
         <label for="gender">Gender</label>
-        <select name="gender">
+        <select name="gender" id="gender">
+            <option value="Select">Select</option>
             <option value="Male">Male</option>
             <option value="female">Female</option>
+            <option value="Not to say">Not to say</option>
         </select>
         <br>
+
         <label for="Date">Date of Birth</label>
         <input type="date" id="Date">
         <br>
-        <label for="Rating">Rating</label>
-        <label>
-            <input type="radio" name="Rating" value="1" >
-            1
-        </label>
-        <label>
-            <input type="radio" name="Rating" value="2">
-            2
-        </label>
-        <label>
-            <input type="radio" name="Rating" value="3">
-            3
-        </label>
-        <label>
-            <input type="radio" name="Rating" value="4">
-            4
-        </label>
-        <label>
-            <input type="radio" name="Rating" value="5">
-            5
-        </label>
-        <br>
-        <p>Enter your message</p>
-        <textarea id="textmessage" rows="4" cols="50" placeholder="Enter your Message"></textarea>
-        <br>
-        <button>Send</button>
-        <button>Reset</button>
-        <br>
-        <a href="https://www.youtube.com"target="blank" >
-            <img src="kisspng-youtube-portable-network-graphics-clip-art-compute-construction-people-clipart-hanslodge-cliparts-5b6ceb4c893503.334682921533864780562.jpg" width="50" height="50" alt="Youtube Image">
 
-        </a>
-        <a href="https://www.instagram.com" target="blank">
-            <img src="Instagram-Logo.wine.png" width="75" height="50" alt="Instagram-Logo">
-        </a>
-        <a href="https://www.telegram.com" target="blank">
-            <img src="Telegram_(software)-Logo.wine.svg" height="50" width="50" alt="telegram image">
-        </a>
+        <span>Rating</span>
+            <input type="radio" name="rating" id="rating1" value="1" >
+            <label for="rating1">1</label>
+
+            <input type="radio" name="rating" id="rating2" value="2" >
+            <label for="rating2">2</label>
+
+            <input type="radio" name="rating" id="rating3" value="3" >
+            <label for="rating3">3</label>
+
+            <input type="radio" name="rating" id="rating4" value="4" >
+            <label for="rating4">4</label>
+
+            <input type="radio" name="rating" id="rating5" value="5" >
+            <label for="rating5">5</label>
+        <br>
+
+        <label for="textmessage">Enter your Message</label><br>
+        <textarea name="message" id="textmessage" rows="5" cols="30" placeholder="Enter your message"></textarea>   
+        <br>
+        <input type="submit" name="submit" id="submit" value="Submit">
+        <input type="reset" name="reset" id="reset" value="Reset">
+
+        <br>
+
+        <footer>
+            <a href="https://www.youtube.com"target="blank" >
+                <img src="kisspng-youtube-portable-network-graphics-clip-art-compute-construction-people-clipart-hanslodge-cliparts-5b6ceb4c893503.334682921533864780562.jpg" width="50" height="50" alt="Youtube Image">
+            </a>
+            <a href="https://www.instagram.com" target="blank">
+                <img src="Instagram-Logo.wine.png" width="75" height="50" alt="Instagram-Logo">
+            </a>
+            <a href="https://www.telegram.com" target="blank">
+                <img src="Telegram_(software)-Logo.wine.svg" height="50" width="50" alt="telegram image">
+            </a>
+        </footer>
+       
     </form>
 
 </body>

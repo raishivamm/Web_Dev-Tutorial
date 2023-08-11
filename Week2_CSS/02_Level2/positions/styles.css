@@ -1,0 +1,17 @@
+.box{
+    height:150px;
+    width: 150px;
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;
+}
+/* .box{
+    position: relative;
+    left: 50px;
+    right:100px;
+    top: 50px;
+} */
+#box3{
+    position: relative;
+    top:50px;
+}

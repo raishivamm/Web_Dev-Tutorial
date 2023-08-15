@@ -1,0 +1,33 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+   
+}
+.container{
+    min-height: 100vh;
+    background-color: #FFFDD0;
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-box{
+    display:flex;
+    width:700px;
+    background-color: white;
+    border-radius: 1.5em;
+}
+.mugcontent{
+    display:block;
+    height:250px;
+    width:250px;
+    border-radius:1.5em 0 0 1.5em;
+
+}
+.head{
+    width: 100%;
+}
+
+
